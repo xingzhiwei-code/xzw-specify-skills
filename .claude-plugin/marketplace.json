@@ -13,7 +13,7 @@
         {
             "name": "xzw-specify-skills",
             "description": "Behavioral guidelines to reduce common LLM coding mistakes: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution",
-            "source": "./",
+            "source": "https://github.com/xingzhiwei-code/xzw-specify-skills.git",
             "strict": false,
             "skills": [
                 "./skills/xzw-specify-guidelines"
