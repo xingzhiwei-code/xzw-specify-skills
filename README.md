@@ -1,8 +1,8 @@
 # xzw-specify-skills
 
-Behavioral guidelines to reduce common LLM coding mistakes, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.
+Behavioral guidelines to reduce common LLM coding mistakes: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution, Verify With Tests.
 
-## The Four Principles
+## The Five Principles
 
 | Principle | Addresses |
 |-----------|-----------|
@@ -10,6 +10,7 @@ Behavioral guidelines to reduce common LLM coding mistakes, derived from [Andrej
 | **Simplicity First** | Overcomplication, bloated abstractions |
 | **Surgical Changes** | Orthogonal edits, touching code you shouldn't |
 | **Goal-Driven Execution** | Leverage through tests-first, verifiable success criteria |
+| **Verify With Tests** | Untested code, false confidence, regression |
 
 ## Install
 

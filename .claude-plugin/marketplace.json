@@ -6,13 +6,13 @@
         "name": "xingzhiwei-code"
     },
     "metadata": {
-        "description": "Behavioral guidelines to reduce common LLM coding mistakes, derived from Andrej Karpathy's observations",
+        "description": "Behavioral guidelines to reduce common LLM coding mistakes: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution, Verify With Tests.",
         "version": "1.0.0"
     },
     "plugins": [
         {
             "name": "xzw-specify-skills",
-            "description": "Behavioral guidelines to reduce common LLM coding mistakes: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution",
+            "description": "Behavioral guidelines to reduce common LLM coding mistakes: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution, Verify With Tests.",
             "source": {
                 "source": "github",
                 "repo": "xingzhiwei-code/xzw-specify-skills"
@@ -28,7 +28,7 @@
                 "guidelines",
                 "best-practices",
                 "coding",
-                "karpathy"
+                "tests"
             ],
             "category": "workflow"
         }
