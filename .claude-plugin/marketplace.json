@@ -1,0 +1,33 @@
+{
+    "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+    "name": "xzw-specify-skills",
+    "description": "Behavioral guidelines to reduce common LLM coding mistakes: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution",
+    "owner": {
+        "name": "xingzhiwei-code"
+    },
+    "metadata": {
+        "description": "Behavioral guidelines to reduce common LLM coding mistakes, derived from Andrej Karpathy's observations",
+        "version": "1.0.0"
+    },
+    "plugins": [
+        {
+            "name": "xzw-specify-skills",
+            "description": "Behavioral guidelines to reduce common LLM coding mistakes: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution",
+            "source": "./",
+            "strict": false,
+            "skills": [
+                "./skills/xzw-specify-guidelines"
+            ],
+            "author": {
+                "name": "xingzhiwei-code"
+            },
+            "keywords": [
+                "guidelines",
+                "best-practices",
+                "coding",
+                "karpathy"
+            ],
+            "category": "workflow"
+        }
+    ]
+}
